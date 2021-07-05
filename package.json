@@ -1,0 +1,37 @@
+{
+  "name": "arvis-httpstat",
+  "version": "0.0.1",
+  "description": "httpstat visualizes",
+  "license": "MIT",
+  "author": {
+    "name": "leozhang2018",
+    "email": "leozhang2018@gmail.com",
+    "url": "code.leozhang2018.me"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "arvish-init",
+    "preuninstall": "arvish-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "arvis-workflow.json"
+  ],
+  "keywords": [
+    "arvis",
+    "workflow",
+    "arvish"
+  ],
+  "dependencies": {
+    "arvish": ">=0.4.6",
+    "is-url": "^1.2.4"
+  },
+  "devDependencies": {
+    "ava": "^1.0.1",
+    "xo": "^0.23.0"
+  }
+}
